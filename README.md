@@ -73,13 +73,13 @@ sample = {
 sh test.sh
 ```
 
-测试指标包括 RMSE、MAE、MAPE 等，可在 `utils.py` 中配置。
+>测试指标包括 RMSE、MAE、MAPE 等。
 
 ---
 
 ## 项目补充说明 | Additional Notes
 
-### 📂 文件结构说明（自动组织）
+### 文件结构说明
 
 ```
 |- data_utils.py               # 数据预处理主模块
