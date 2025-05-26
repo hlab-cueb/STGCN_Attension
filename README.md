@@ -1,7 +1,3 @@
-下面是按照你提供的模板格式编写的**中英双语 README 文件**，基于你项目的代码结构与数据流程：
-
----
-
 # The Template for Hlab code（可根据项目需要进行修改）
 
 ## Requirements（项目环境依赖）
