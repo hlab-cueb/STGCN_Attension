@@ -63,10 +63,9 @@ sample = {
 |- utils.py                    # 工具函数（窗口滑动函数）
 |
 |- Processed_data/            # 预处理后的模型输入数据
-|  |- combined_data/          # 最终张量输出位置
-|     |- multi_trade.pt
-|     |- multi_A.pt
-|     |- multi_feature.pt
+|  |- multi_trade.pt
+|  |- multi_A.pt
+|  |- multi_feature.pt
 |
 |- assert/                    # 用于文档展示的图像资源
 |  |- sample.png              # 数据流程图（示意）
