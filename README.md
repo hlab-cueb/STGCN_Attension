@@ -58,11 +58,11 @@ sample = {
 |- data_utils.py               # 数据预处理主模块
 |- model.py                    # 多输入 STGCN 模型定义
 |- main.py                     # 训练主函数
-|- attention.py                # 注意力模块（FiLM / Cross / Self）
-|- stgcn.py                    # STGCN block 模块定义
+|- attention.py                # 注意力模块（Cross / Self）
+|- stgcn.py                    # STGCN模块
 |- utils.py                    # 工具函数（窗口滑动函数）
 |
-|- Processed_data/            # 输出的模型输入数据
+|- Processed_data/            # 预处理后的模型输入数据
 |  |- combined_data/          # 最终张量输出位置
 |     |- multi_trade.pt
 |     |- multi_A.pt
