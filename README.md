@@ -1,5 +1,3 @@
-# The Template for Hlab code（可根据项目需要进行修改）
-
 ## Requirements（项目环境依赖）
 
 * Python >= 3.7
@@ -16,19 +14,8 @@ pip install -r requirements.txt
 
 ## Training（训练方法与数据组织）
 
-### 1. 模型训练方式 | Training Method
 
-配置项详见 `config.py` 文件。可通过如下命令启动训练：
-
-```bash
-python main.py
-```
-
-模型结构定义在 `model.py`，包含 STGCN Block、自注意力机制、交叉注意力等模块。
-
----
-
-### 2. 数据组织与格式 | Dataset
+### 1. 数据组织与格式 | Dataset
 
 #### 输入张量格式说明：
 
@@ -53,7 +40,7 @@ sample = {
 
 ---
 
-### 3. 代码功能特性 | Code Features
+### 2. 代码功能特性 | Code Features
 
 * [x] 支持多商品数据并联合建模
 * [x] 完整的数据归一化、国家过滤与标准化处理流程
@@ -63,19 +50,6 @@ sample = {
 * [ ] 拟支持图结构动态变化与边权学习
 * [ ] 可扩展商品类型并自动匹配特征维度
 
----
-
-## Test（模型测试）
-
-运行如下脚本以进行模型评估或推理：
-
-```bash
-sh test.sh
-```
-
->测试指标包括 RMSE、MAE、MAPE 等。
-
----
 
 ## 项目补充说明 | Additional Notes
 
