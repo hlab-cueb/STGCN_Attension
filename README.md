@@ -7,23 +7,11 @@
 * NumPy
 * Pandas
 
-> 💡 完整依赖项已列入 `requirements.txt`，请通过以下命令安装：
+> 完整依赖项已列入 `requirements.txt`，请通过以下命令安装：
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 项目说明与数据流程图 | Project Overview & Data Flow
-
-本项目基于 STGCN 构建多商品、多节点的国际贸易流量预测系统。下图展示了整体的数据处理和建图流程。
-This project implements a multi-commodity trade flow forecasting framework using STGCN. Below is the pipeline from raw CSVs to model input tensors.
-
-<p align="center">
-<img src="./assert/sample.png" height="360" alt="data pipeline" align=center />
-</p>
-
 ---
 
 ## Training（训练方法与数据组织）
@@ -37,7 +25,6 @@ python main.py
 ```
 
 模型结构定义在 `model.py`，包含 STGCN Block、自注意力机制、交叉注意力等模块。
-Model structure (e.g., STGCNBlock, cross/self attention, FiLM) is defined in `model.py`.
 
 ---
 
